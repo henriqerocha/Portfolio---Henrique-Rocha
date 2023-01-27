@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
 
 *{
     margin: 0;
@@ -6,21 +7,19 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(31, 100, 208, 0.8);
-    padding-bottom: 2000px;
+    background-color: rgba(241, 241, 241, 0.8);
 }
 
 .container{
     width: 100%;
-    max-width: 990px;
+    max-width: 1024px;
     margin: 0 auto;
 }
 header{
     background-color: rgb(255, 197, 44, 0.96);
-    border-bottom: 1px solid black;
+    box-shadow: 0px 0px 10px 5px #ffb02c inset;
+    border-bottom: 2px solid #cacaca;
     border-radius: 0px 0px 10px 10px;
-    position: fixed;
-    top: 0;
     width: 100%;
 }
 .topo{
@@ -33,6 +32,7 @@ header{
 }
 .menu li{
     list-style: none;
+    margin-right: 5px;
 }
 .menu li a{
     padding: 5px 15px;
@@ -44,11 +44,79 @@ header{
 .menu li a:hover{
     color: black;
     background-color: #ffb02c;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 .menu ul .active a{
     background-color: black;
     color: white;
-    border-radius: 25px;
+    border-radius: 15px;
+}
+#profile{
+    display: flex;
+    flex-flow: column wrap;
+    flex-grow: 1;
+    align-items: center;
+    font-family: kalam;
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    padding: 40px 80px 0;
+}
+#profile h1{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+#profile p{
+    font-size: 19px;
+    font-weight: normal ;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+#profile span{
+    font-weight: bold;
+}
+.titulo{
+    display: flex;
+}
+.titulo img{
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
 }
 
+.card-hard,
+.card-soft,
+.card-desc{
+    width: 300px;
+    height: 400px;
+    background-color: #ffb02c;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 15px #ff8b2c inset;
+    box-shadow: 8px 8px 5px 0px rgb(179, 179, 179);
+    padding: 40px;
+}
+.title-card{
+    text-align: center;
+}
+.box-skills{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: space-around;
+    background-color: #fff;
+}
+.width-card{
+    margin: 10px;
+}
+.box-skills h3{
+    font-size: 32px;
+    text-shadow: 2px 2px 1px #fff;
+    margin-bottom: 80px;
+}
+.box-skills ul li{
+    font-size: 20px;
+    line-height: 40px;
+    list-style-position: initial;
+}
