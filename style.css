@@ -8,6 +8,7 @@
 }
 body{
     background-color: rgba(241, 241, 241, 0.8);
+    position: relative;
 }
 
 .container{
@@ -21,6 +22,7 @@ header{
     border-bottom: 2px solid #cacaca;
     border-radius: 0px 0px 10px 10px;
     width: 100%;
+
 }
 .topo{
     display: flex;
@@ -44,12 +46,12 @@ header{
 .menu li a:hover{
     color: black;
     background-color: #ffb02c;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 .menu ul .active a{
     background-color: black;
     color: white;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 #profile{
     display: flex;
@@ -129,8 +131,31 @@ header{
     background-size: cover;
     background-attachment: fixed;
     min-height: 300px;
+    margin-bottom: 60px;
 }
 
 #projetos{
+    /* background-image: url('img/img4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px; */
     padding-bottom: 500px;
+}
+
+.git-fixed{
+    position: fixed;
+    right: 0;
+    bottom: 10%;
+}
+.linkedin-fixed{
+    position: fixed;
+    right: 10px;
+    bottom: 5%;
+}
+.conteudo-projetos{
+    display: flex;
+    justify-content: center;
+    font-family: kalam;
+    font-size: 32px;
 }
