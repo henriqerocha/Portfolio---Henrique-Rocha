@@ -120,6 +120,7 @@ header{
     font-size: 20px;
     line-height: 40px;
     list-style-position: initial;
+    font-weight: bold;
 }
 .capa{
     background-image: url('img/img5.jpg');
