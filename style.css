@@ -106,6 +106,7 @@ header{
     flex-grow: 1;
     justify-content: space-around;
     background-color: #fff;
+    margin-bottom: 40px;
 }
 .width-card{
     margin: 10px;
@@ -119,4 +120,16 @@ header{
     font-size: 20px;
     line-height: 40px;
     list-style-position: initial;
+}
+.capa{
+    background-image: url('img/img5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 300px;
+}
+
+#projetos{
+    padding-bottom: 500px;
 }
