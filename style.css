@@ -164,3 +164,16 @@ header{
     font-family: kalam;
     font-size: 32px;
 }
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8em;
+    color: #fff;
+    height: 100%;
+}
+#rodape{
+    height: 60px;
+    background-color: #232323;
+}
